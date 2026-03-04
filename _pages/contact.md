@@ -1,10 +1,10 @@
 ---
+layout: archive
 title: "Contact"
 permalink: /contact/
 author_profile: false
 redirect_from:
-  - /md/
-  - /markdown.html/
+  - /contact
 ---
 
 # Get in Touch
