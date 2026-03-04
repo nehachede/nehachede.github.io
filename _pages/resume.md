@@ -13,12 +13,9 @@ redirect_from:
 
 **United States**
 
-**Email (IU):** nchede@iu.edu
-
-**Email (Personal):** nehachede98@gmail.com
-
-**LinkedIn:** <a href="https://www.linkedin.com/in/nehachede98/" target="_blank">linkedin.com/in/nehachede98</a>  
-
+**Email (IU):** nchede@iu.edu <br>
+**Email (Personal):** nehachede98@gmail.com <br>
+**LinkedIn:** <a href="https://www.linkedin.com/in/nehachede98/" target="_blank">linkedin.com/in/nehachede98</a>  <br>
 **Website/Portfolio:** <a href="https://nehachede.github.io" target="_blank">https://nehachede.github.io/</a>  
 
 ## Technical Skills
@@ -31,8 +28,7 @@ redirect_from:
 ## Work Experience
 
 ### Indiana University
-**Data Quality Analyst**
-
+**Data Quality Analyst** <br>
 May 2024 – October 2025 | Bloomington, IN, USA
 - Curated, transformed, and validated 1,500+ records across 800+ entities using SQL and Python, improving data accuracy, completeness, and consistency for reliable downstream analysis and reporting for research stakeholders.  
 - Designed and automated end-to-end ETL and data quality validation workflows for structured and unstructured data using SQL logic and text-processing techniques, identifying and resolving duplications, missing fields, and rule violations, reducing recurring data issues by 30%.  
@@ -41,16 +37,14 @@ May 2024 – October 2025 | Bloomington, IN, USA
 
 ### Mu Sigma
 
-**Data Science Manager** 
-
+**Data Science Manager** <br>
 August 2022 - June 2023 | Bengaluru, KA, India
 - Led analytics delivery for a $3.25M portfolio for a Fortune 100 Biopharma client, driving Agile delivery across 10+ clinical and commercial workstreams involving claims, EHR/EMR, observational studies, clinical trials, and registries.  
 - Established data governance and delivery standards across Agile workflows using JIRA Kanban boards, documentation, and checkpoints, boosting efficiency by 40% and securing full contract renewal with 98% client satisfaction.  
 - Secured $1.2M in new business by leading client pitches and executing SOWs aligned with priorities.  
 - Bridged the gap between stakeholders and technical teams by translating 20+ strategic business needs into scalable data solutions using Amazon Redshift and AWS S3, reducing cycle time by 35%.  
 
-**Decision Scientist** 
-
+**Decision Scientist**  <br>
 July 2019 - July 2022 | Bengaluru, KA, India
 - Led analysis of large-scale real-world datasets across 15+ global studies using SAS, R, SQL, and Python, applying EDA, statistical modeling, and time series forecasting to support population-level planning and scenario forecasting.  
 - Built and standardized analytical data models and QC frameworks, improving data consistency and reducing downstream rework by 30%.  
@@ -65,12 +59,12 @@ July 2019 - July 2022 | Bengaluru, KA, India
 - **Video Summarization using LSTM:** Developed LSTM models in Python using Scikit Learn, TensorFlow, and Keras. Achieved 50% accuracy with Bi-Directional LSTM and 53% with Encoder-Decoder LSTM for temporal dependencies.  
 
 ## Education
-- **Master of Science – Data Science**
-Indiana University | Bloomington, IN, USA
+- **Master of Science – Data Science** <br>
+Indiana University | Bloomington, IN, USA <br>
 GPA: 3.65/4.0
 
-- **Bachelor of Engineering – Information Technology**
-Savitribai Phule Pune University | Pune, MH, India
+- **Bachelor of Engineering – Information Technology**<br>
+Savitribai Phule Pune University | Pune, MH, India<br>
 GPA: 3.8/4.0
 
 ## Honors and Awards
