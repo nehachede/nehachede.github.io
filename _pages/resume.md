@@ -12,20 +12,27 @@ redirect_from:
 # Neha Anil Chede
 
 **United States**
+
 **Email (IU):** nchede@iu.edu
+
 **Email (Personal):** nehachede98@gmail.com
+
 **LinkedIn:** <a href="https://www.linkedin.com/in/nehachede98/" target="_blank">linkedin.com/in/nehachede98</a>  
+
 **Website/Portfolio:** <a href="https://nehachede.github.io" target="_blank">https://nehachede.github.io/</a>  
 
 ## Technical Skills
 **Languages:** SQL, Python, R, SAS, Java, C/C++
+
 **Databases & Tools:** Amazon Redshift, SQL, PostgreSQL, MS Access, Hive, Tableau, Power BI, Spotfire, Neo4j
+
 **Data Science:** Exploratory Data Analysis (EDA), Hypothesis Testing, Statistical Analysis, Time Series Analysis, Data Visualization, Data Quality and Validation, Machine Learning, Deep Learning, Natural Language Processing, Data Management
 
 ## Work Experience
 
 ### Indiana University
 **Data Quality Analyst**
+
 May 2024 – October 2025 | Bloomington, IN, USA
 - Curated, transformed, and validated 1,500+ records across 800+ entities using SQL and Python, improving data accuracy, completeness, and consistency for reliable downstream analysis and reporting for research stakeholders.  
 - Designed and automated end-to-end ETL and data quality validation workflows for structured and unstructured data using SQL logic and text-processing techniques, identifying and resolving duplications, missing fields, and rule violations, reducing recurring data issues by 30%.  
@@ -35,6 +42,7 @@ May 2024 – October 2025 | Bloomington, IN, USA
 ### Mu Sigma
 
 **Data Science Manager** 
+
 August 2022 - June 2023 | Bengaluru, KA, India
 - Led analytics delivery for a $3.25M portfolio for a Fortune 100 Biopharma client, driving Agile delivery across 10+ clinical and commercial workstreams involving claims, EHR/EMR, observational studies, clinical trials, and registries.  
 - Established data governance and delivery standards across Agile workflows using JIRA Kanban boards, documentation, and checkpoints, boosting efficiency by 40% and securing full contract renewal with 98% client satisfaction.  
@@ -42,6 +50,7 @@ August 2022 - June 2023 | Bengaluru, KA, India
 - Bridged the gap between stakeholders and technical teams by translating 20+ strategic business needs into scalable data solutions using Amazon Redshift and AWS S3, reducing cycle time by 35%.  
 
 **Decision Scientist** 
+
 July 2019 - July 2022 | Bengaluru, KA, India
 - Led analysis of large-scale real-world datasets across 15+ global studies using SAS, R, SQL, and Python, applying EDA, statistical modeling, and time series forecasting to support population-level planning and scenario forecasting.  
 - Built and standardized analytical data models and QC frameworks, improving data consistency and reducing downstream rework by 30%.  
