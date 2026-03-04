@@ -10,6 +10,7 @@ redirect_from:
 I’m always open to connecting, collaborating, or exploring new opportunities. Here’s how you can reach me:
 
 **Email (IU):** nchede@iu.edu
+
 **Email (Personal):** nehachede98@gmail.com
 
 **GitHub:** <a href="https://github.com/nehachede" target="_blank">github.com/nehachede</a>  
