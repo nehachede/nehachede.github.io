@@ -7,8 +7,6 @@ redirect_from:
   - /contact
 ---
 
-# Get in Touch
-
 I’m always open to connecting, collaborating, or exploring new opportunities. Here’s how you can reach me:
 
 **Email (IU):** <a href="mailto:you@iu.edu">nchede@iu.edu</a>  
