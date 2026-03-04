@@ -12,10 +12,10 @@ redirect_from:
 # Neha Anil Chede
 
 **United States**
-**Email (IU):** <a href="mailto:you@iu.edu">nchede@iu.edu</a>  
-**Email (Personal):** <a href="mailto:you@example.com">nehachede98@gmail.com</a>  
-**LinkedIn:** <a href="https://www.linkedin.com/in/yourusername/" target="_blank">linkedin.com/in/nehachede98</a>  
-**Website/Portfolio:** <a href="https://yourwebsite.com" target="_blank">https://nehachede.github.io/</a>  
+**Email (IU):** nchede@iu.edu
+**Email (Personal):** nehachede98@gmail.com
+**LinkedIn:** <a href="https://www.linkedin.com/in/nehachede98/" target="_blank">linkedin.com/in/nehachede98</a>  
+**Website/Portfolio:** <a href="https://nehachede.github.io" target="_blank">https://nehachede.github.io/</a>  
 
 ## Technical Skills
 **Languages:** SQL, Python, R, SAS, Java, C/C++
