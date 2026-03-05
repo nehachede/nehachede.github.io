@@ -1,8 +1,8 @@
 ---
 title: "Data Science Manager"
 collection: work
-permalink: /work/1-data-quality-analyst
-excerpt: "Indiana University <br> Bloomington, Indiana <br> May 2024 - October 2025"
+permalink: /work/2-data-science-manager
+excerpt: "Mu Sigma <br> Bengaluru, India <br> August 2022 - June 2023"
 ---
 
 I was promoted to Data Science Manager after leading high-impact analytics projects as a hands-on analyst. I managed a $3.25M portfolio for a Fortune 100 Biopharma client, overseeing multiple workstreams while balancing hands-on analytics for critical, high-priority projects. I led MBRs/QBRs, mentored teams, streamlined Agile workflows, and delivered scalable data solutions that balanced technical execution with client engagement and business growth.
@@ -21,4 +21,4 @@ I was promoted to Data Science Manager after leading high-impact analytics proje
 
 <b>I balanced hands-on analytics with team leadership by implementing workflows, building team capabilities and in-house capabilities, contributing to improving QC processes, and mentoring while remaining actively involved in Python, SQL, SAS, R and Data Visualization projects. This allowed the team to deliver multiple analytics projects in parallel while improving QC consistency and accelerating analyst ramp-up. <br>
 
-Skills: Python, SAS, R, SQL, JIRA, AWS, S3, Redshift, Agile & Scrum Delivery, Data Governance, Project Management, Portfolio Management, Resource Allocation, Business Reviews, Business Development, Stakeholder Collaboration, Process Optimization, Team Mentorship</b>
+<i>Skills: Python, SAS, R, SQL, JIRA, AWS, S3, Redshift, Agile & Scrum Delivery, Data Governance, Project Management, Portfolio Management, Resource Allocation, Business Reviews, Business Development, Stakeholder Collaboration, Process Optimization, Team Mentorship</i>
