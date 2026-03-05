@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Work Experience"
+title: "Community"
 permalink: /community/
 author_profile: true
 ---
