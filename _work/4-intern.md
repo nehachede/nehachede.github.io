@@ -1,7 +1,7 @@
 ---
 title: "Decision Scientist"
 collection: work
-permalink: /work/3-decision-scientist
+permalink: /work/4-intern
 excerpt: "Mu Sigma <br> Bengaluru, India <br> July 2019 - July 2022"
 ---
 
