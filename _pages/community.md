@@ -15,24 +15,6 @@ Through my participation, I hope to encourage mentorship, support evidence-based
 
 Below are some of the communities I am proud of to be a part of: 
 
-### Professional / Consulting Roles
-
-- Heartland Community Network (HCN) – Consultant, supporting data-driven initiatives for underserved communities.
-
-- FADS Program, Indiana University – Data Analyst, contributing to research projects and analytics workflows.
-
-### Social & Philanthropic Engagement
-
-- Lila Poonawalla Foundation – Lila Girl & Peace Ambassador, promoting education, empowerment, and social initiatives.
-
-### Professional Associations
-
-- Women in Tech – Member, supporting mentorship and inclusion in technology fields.
-
-- Society of Women Engineers (SWE) – Member, promoting professional development and community engagement.
-
-- Fairygodboss – Member, supporting women’s careers and networking opportunities.
-
 {% for post in site.work reversed %}
   {% include archive-single.html %}
 {% endfor %}
