@@ -1,7 +1,7 @@
 ---
 title: "CEnTR*IMPACT Component & Weightings Analysis: Bayesian Updating for Accurate Community Engaged Research Reporting"
-collection: projects
-permalink: /projects/1-bayesian-fads
+collection: research
+permalink: /research/1-bayesian-fads
 excerpt: "Built an interactive analytics framework combining R, Python, and Streamlit to measure and visualize community-engaged research impact using network modeling, Bayesian alignment metrics, and custom visualizations such as solar correlation and spiral plots."
 paperurl: 'https://doi.org/10.17605/OSF.IO/TEG78'
 ---
