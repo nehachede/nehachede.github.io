@@ -1,8 +1,8 @@
 ---
-title: "Decision Scientist"
+title: "Computer Vision Software Intern"
 collection: work
 permalink: /work/4-intern
-excerpt: "Mu Sigma <br> Bengaluru, India <br> July 2019 - July 2022"
+excerpt: "Saglo Research Equipments <br> Pune, India <br> June 2018 - November 2018"
 ---
 
 During my undergraduate studies, I had the opportunity to work with Saglo Research Equipments, where I gained hands-on experience in automating laboratory workflows for HPTLC chromatography. I focused on integrating programming and image analysis to improve efficiency, accuracy, and reproducibility in experimental documentation.

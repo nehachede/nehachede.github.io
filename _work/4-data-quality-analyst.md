@@ -1,7 +1,7 @@
 ---
 title: "Data Quality Analyst"
 collection: work
-permalink: /work/1-data-quality-analyst
+permalink: /work/4-data-quality-analyst
 excerpt: "Indiana University <br> Bloomington, Indiana <br> May 2024 - October 2025"
 ---
 
