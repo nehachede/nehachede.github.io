@@ -1,8 +1,9 @@
 ---
-title: "Data Analyst"
+title: "Lila Poonawalla Foundation"
 collection: community
 permalink: /community/2-lpf
 location: "United States"
+excerpt: 'Active member engaging in leadership, mentorship and community development programs since 2015.'
 ---
 
 I became a member of the Lila organization in 2015 and received a scholarship to support my undergraduate studies. Over the years, I attended a variety of trainings and seminars aimed at personal growth, skill development, and improving communication and public speaking abilities. 

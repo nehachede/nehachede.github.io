@@ -12,10 +12,10 @@ main:
     url: /work/
 
   - title: "Projects"
-    url: /projects/    
+    url: /projects/
 
   - title: "Research"
-    url: /research/    
+    url: /research/
     
   - title: "Community"
     url: /community/
