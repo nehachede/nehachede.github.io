@@ -15,6 +15,6 @@ Through my participation, I hope to encourage mentorship, support evidence-based
 
 Below are some of the communities I am proud of to be a part of: 
 
-{% for post in site.work reversed %}
+{% for post in site.community reversed %}
   {% include archive-single.html %}
 {% endfor %}
