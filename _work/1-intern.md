@@ -7,7 +7,7 @@ excerpt: "Saglo Research Equipments <br> Pune, India <br> <i>June 2018 - Novembe
 
 During my undergraduate studies, I had the opportunity to work with Saglo Research Equipments, where I gained hands-on experience in automating laboratory workflows for HPTLC chromatography. I focused on integrating programming and image analysis to improve efficiency, accuracy, and reproducibility in experimental documentation.
 
-## Key Contributions
+### Key Contributions:
 
 - Developed a cross-platform Java/JavaFX desktop application to automate HPTLC plate imaging and data collection.
 

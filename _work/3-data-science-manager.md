@@ -7,7 +7,7 @@ excerpt: "Mu Sigma <br> Bengaluru, India <br> <i>August 2022 - June 2023</i>"
 
 I was promoted to Data Science Manager after leading high-impact analytics initiatives as a hands-on analyst, taking ownership of portfolio delivery, client engagement, and team development. 
 
-## Key Contributions
+### Key Contributions:
 
 ### Leadership & Portfolio Management
 
@@ -29,4 +29,4 @@ I was promoted to Data Science Manager after leading high-impact analytics initi
 
 - Developed cloud-based data solutions using Amazon Redshift and AWS S3, implementing automated transformation, validation, and reporting workflows that reduced cycle time by 35% and ensured data accuracy for critical business decisions.
 
-<i>Skills: Python, SAS, R, SQL, JIRA, AWS, S3, Redshift, Agile & Scrum Delivery, Data Governance, Project Management, Portfolio Management, Resource Allocation, Business Reviews, Business Development, Stakeholder Collaboration, Process Optimization, Team Mentorship</i>
+<i>Skills: Python, SAS, R, SQL, JIRA, AWS, S3, Redshift, Real-World Evidence (RWE), Real-World Data (RWD), Agile & Scrum Delivery, Data Governance, Project Management, Portfolio Management, Resource Allocation, Business Reviews, Business Development, Stakeholder Collaboration, Process Optimization, Team Mentorship</i>
