@@ -2,7 +2,7 @@
 title: "Data Science Manager"
 collection: work
 permalink: /work/3-data-science-manager
-excerpt: "Mu Sigma <br> Bengaluru, India <br> August 2022 - June 2023"
+excerpt: "Mu Sigma <br> Bengaluru, India <br> <i>August 2022 - June 2023</i>"
 ---
 
 I was promoted to Data Science Manager after leading high-impact analytics initiatives as a hands-on analyst, taking ownership of portfolio delivery, client engagement, and team development. 

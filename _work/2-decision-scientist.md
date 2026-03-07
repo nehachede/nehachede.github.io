@@ -2,7 +2,7 @@
 title: "Decision Scientist"
 collection: work
 permalink: /work/2-decision-scientist
-excerpt: "Mu Sigma <br> Bengaluru, India <br> July 2019 - July 2022"
+excerpt: "Mu Sigma <br> Bengaluru, India <br> <i>July 2019 - July 2022</i>"
 ---
 
 I began my career as a Decision Scientist at Mu Sigma after completing my undergraduate degree in Information Technology. Following intensive training in Python, SQL, machine learning, and data storytelling, I contributed to global healthcare analytics projects supporting strategic decision-making, regulatory evidence generation, and real-world evidence research.
