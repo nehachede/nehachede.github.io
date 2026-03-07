@@ -46,4 +46,4 @@ The deliverables included a fully functional Streamlit application that:
 - [CEnTR-IMPACT](https://github.com/jeremyfprice/CEnTR-IMPACT) – Core IU framework for measuring community-engaged research.  
 - [CEnTR-IMPACT Weightings](https://github.com/jeremyfprice/centr-impact-weightings) – Weighting and alignment calculation scripts.
 - [CEnTR-IMPACT Visualizations](https://github.com/nehachede/FADS-Summer24) – Visualizations
-- [The Open Science Framework - DOI]('https://doi.org/10.17605/OSF.IO/TEG78')
+- [The Open Science Framework - DOI](https://doi.org/10.17605/OSF.IO/TEG78)
