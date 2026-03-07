@@ -34,7 +34,7 @@ I began my career as a Decision Scientist at Mu Sigma after completing my underg
 
 - Designed and deployed interactive dashboards in Tableau and Spotfire, integrating outputs across 20+ variables and 5 analytical modules (cohort, demographics, labs, Rx, cost outcomes), enabling self-service exploration and reducing insight delivery time by 30% for research stakeholders.
 
-### Mentorship & Leadership
+### Mentorship
 
 - Authored centralized documentation, training materials, and onboarding workflows, mentoring 15+ new analysts, reducing ramp-up time by 32%, and fostering technical excellence and knowledge sharing.
 

@@ -7,7 +7,7 @@ excerpt: "Mu Sigma <br> Bengaluru, India <br> August 2022 - June 2023"
 
 I was promoted to Data Science Manager after leading high-impact analytics initiatives as a hands-on analyst, taking ownership of portfolio delivery, client engagement, and team development. 
 
-## Key Contributions:
+## Key Contributions
 
 ### Leadership & Portfolio Management
 

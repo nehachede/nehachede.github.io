@@ -2,7 +2,7 @@
 title: "Senior Consultant"
 collection: work
 permalink: /work/5-heartland-consultant
-excerpt: "Heartland Community Network <br> Bloomington, Indiana <br> June 2025 - Present"
+excerpt: "Heartland Community Network <br> Bloomington, Indiana <br> <i>June 2025 - Present</i>"
 ---
 
 I am contributing to technology-driven projects that support decision-making, planning, and resource allocation for local communities.
