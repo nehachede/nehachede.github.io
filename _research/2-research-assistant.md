@@ -3,7 +3,7 @@ title: "Research Assistant"
 collection: research
 permalink: /research/2-research-assistant
 venue: "Indiana University - Pervasive Institute of Technology (PTI)"
-excerpt: "Developed reproducible research workflows and metadata standards for machine-actionable research objects"
+excerpt: "Developed reproducible research workflows and metadata standards for machine-actionable research objects."
 location: "Bloomington, USA"
 ---
 
