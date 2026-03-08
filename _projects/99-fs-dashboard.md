@@ -1,7 +1,7 @@
 ---
 title: "Hoosier Uplands Data Library - Food Security Dashboard"
 collection: projects
-permalink: /projects/10-fs-dashboard
+permalink: /projects/99-fs-dashboard
 excerpt: "Collaborated on building an automated data pipeline and Tableau dashboard analyzing food access across 11 Indiana counties, integrating data from 15+ fragmented sources and 70 food assistance providers to identify geographic service gaps and accessibility barriers."
 ---
 
