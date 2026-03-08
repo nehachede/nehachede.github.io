@@ -1,7 +1,7 @@
 ---
-title: "GPTQ + LoRA Finetuning from Scratch"
+title: "Automatic Key Frame Extraction "
 collection: projects
-permalink: /projects/8-gptq-lora-from-scratch
-excerpt: 'In April 2025, I built a complete GPTQ + LoRA finetuning pipeline from scratch to better understand efficient LLM adaptation.'
+permalink: /projects/1-keyframe-extraction
+excerpt: ''
 ---
 
