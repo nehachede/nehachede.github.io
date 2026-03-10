@@ -9,9 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-⬇️ <i> [Download my Resume (PDF)](http://nehachede.github.io/files/Resume-Neha_Chede.pdf)</i>
-
-<i><a href="http://nehachede.github.io/files/Resume-Neha_Chede.pdf" target="_blank">Download my Resume (PDF)</a></i>
+⬇️ <i><a href="http://nehachede.github.io/files/Resume-Neha_Chede.pdf" target="_blank">Download my Resume (PDF)</a></i>
 
 # Neha Anil Chede
 
