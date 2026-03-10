@@ -13,7 +13,7 @@ I began my career as a Decision Scientist at Mu Sigma after completing my underg
 
 - Contributed to 15+ global healthcare analytics projects producing publication- and regulatory-ready outputs that supported 14+ peer-reviewed publications and FDA submissions, increasing the market impact of high-value therapies by 38%.
 - Analyzed claims, EHR/EMR, clinical trials, registries, synthetic data, observational, case-control studies, covering millions of patient records, supporting HEOR outcomes, and FDA evidence generation.
-- Worked with diverse healthcare datasets like CPRD, JMDC, MDV, KOMODO, national registries, synthetic NHS data, and clinical trial sources, among others.
+- Worked with diverse healthcare datasets like CPRD, JMDC, MDV, IQVIA, KOMODO, Flatiron, ConcertAI, national registries, synthetic NHS data, and clinical trial sources, among others.
 - Gained hands-on experience with medical coding and terminology systems (ICD-10, ICD-9, SNOMED CT, Read Codes, MedDRA, LOINC, ATC, RxNorm, etc.), for analyzing clinical, claims, and registry datasets.
 - Worked across multiple therapeutic areas (oncology, immunology, cardiovascular, comorbidities, rare diseases).
 

@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<a href="{{ base_path }}/files/Resume_Neha_Chede.pdf" target="_blank" download>⬇️<i>Download my Resume (PDF)</i></a>
+
 # Neha Anil Chede
 
 **United States**
@@ -24,6 +26,8 @@ redirect_from:
 **Databases & Tools:** Amazon Redshift, SQL, PostgreSQL, MS Access, Hive, Tableau, Power BI, Spotfire, Neo4j
 
 **Data Science:** Exploratory Data Analysis (EDA), Hypothesis Testing, Statistical Analysis, Time Series Analysis, Data Visualization, Data Quality and Validation, Machine Learning, Deep Learning, Natural Language Processing, Data Management
+
+**Management & Leadership**: Client Engagement, Agile & Scrum Delivery, JIRA, Kanban boards, Project & Portfolio Management, Business Development, Stakeholder Collaboration, Data Governance, Process Optimization, Requirements Gathering
 
 ## Work Experience
 
