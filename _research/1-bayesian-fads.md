@@ -5,8 +5,6 @@ permalink: /research/1-bayesian-fads
 excerpt: "Built an interactive analytics framework combining R, Python, and Streamlit to measure and visualize community-engaged research impact using network modeling, Bayesian alignment metrics, and custom visualizations such as solar correlation and spiral plots."
 ---
 
-### Introduction
-
 I had the opportunity to work with [Prof. Jeremy Price](https://education.indianapolis.iu.edu/faculty-research/faculty-directory/price-jeremy.html), School of Education, Indiana University, as part of the [Faculty Assistance in Data Science – IU Research program](https://rdc.iu.edu/resource-catalog/faculty-assistance-data-science/) during Summer 2024, developing an analytics framework to quantify and visualize research impact.
 
 Community-engaged research connects universities with communities to address social, educational, and policy challenges. While these collaborations produce meaningful outcomes, institutions often struggle to measure impact systematically—understanding how individual engagement components contribute to results, how activities interact, and how influence spreads over time.
