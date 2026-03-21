@@ -31,6 +31,7 @@ To capture both interpretability and predictive power, the analysis combines sta
 
 <ol>
 	<li> Discovering Relationships
+<p>
 The first step focused on identifying relationships across variables that may not be immediately visible.
 
 - Continuous variables (e.g., BMI, blood pressure) were discretized into categorical bins
@@ -38,8 +39,10 @@ The first step focused on identifying relationships across variables that may no
 - The Apriori algorithm was applied to identify frequent itemsets and generate association rules
 
 This approach helped uncover co-occurring patterns between clinical conditions, medication usage, and physiological indicators, providing interpretable insights into how health factors interact.
+</p>
 	</li> 
 	<li> Reducing Complexity and Segmenting Populations
+<p>
 Given the high dimensionality of the dataset, dimensionality reduction and clustering were used to structure the data more effectively.
 
 - Principal Component Analysis (PCA) was applied to capture key variance drivers while reducing dimensionality
@@ -55,6 +58,7 @@ Each cluster represented a unique combination of:
 - Clinical and physiological indicators
 
 These segments highlight how risk is not uniform across populations, and reinforce the importance of stratified analysis.
+</p>
 	</li>
 	<li>
 	</li>
