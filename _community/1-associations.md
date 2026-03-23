@@ -3,6 +3,7 @@ title: "Professional Associations"
 collection: community
 permalink: /community/1-associations
 location: "United States"
+excerpt: 'I am an active member of several professional associations that focus on mentorship, networking, and the advancing women in technology.'
 ---
 
 I am an active member of several professional associations that focus on mentorship, networking, and the advancing women in technology. These memberships allow me to stay connected with peers, contribute to community initiatives, and promote inclusive growth within technical fields.
