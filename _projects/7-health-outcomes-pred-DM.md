@@ -41,7 +41,7 @@ To create a multi-modal representation of each individual and ensure analytical 
 - Numerical features were standardized to align scales across domains
 - Highly skewed variables (e.g., cholesterol, micronutrients) were transformed using Box-Cox
 
-<i>If you would like to explore or work with the data yourself, it is publicly available through the CDC: (NHANES 2013–2014 cycle)[https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023].</i>
+<i>If you would like to explore or work with the data yourself, it is publicly available through the CDC: [NHANES 2013–2014 cycle](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023).</i>
 
 ### Analytical Approach
 
