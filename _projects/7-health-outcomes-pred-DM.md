@@ -80,4 +80,6 @@ Key predictive features included sugar intake, total cholesterol, calcium, vitam
 - Apply advanced methods like SMOTE to address class imbalance
 - Expand features to include genetic markers and additional health data
 
+Explore the full project on [GitHub](https://github.com/nehachede/Health-Outcomes-Prediction/tree/main).
+
 <i>Tech Stack: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, PCA, K-Means Clustering, Random Forest, Association Rule Mining, Box-Cox Transformation, Data Preprocessing, Feature Engineering, Statistical Analysis, Data Visualization</i>
