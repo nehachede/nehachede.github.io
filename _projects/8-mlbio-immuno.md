@@ -2,7 +2,7 @@
 title: "Network-based machine learning approach to predict immunotherapy response in cancer patients"
 collection: projects
 permalink: /projects/8-ml-bio-immuno
-excerpt: "Extended a network-based ML framework using protein-protein interaction networks and NetBio biomarkers to predict immunotherapy response. Evaluated XGBoost and deep learning models against logistic regression using LOOCV on imbalanced clinical datasets."
+excerpt: "Applied network-based ML using PPI networks and NetBio biomarkers to predict immunotherapy response, benchmarking XGBoost and deep learning models against logistic regression on imbalanced clinical datasets using LOOCV."
 ---
 
 ### Introduction
@@ -11,8 +11,6 @@ Immune checkpoint inhibitors (ICIs) have transformed cancer treatment by enablin
 This creates a critical need for predictive biomarkers that can identify likely responders before treatment begins. Traditional gene-based approaches often fail to capture the complex biological interactions underlying treatment response.  
 
 This project builds on a network-based machine learning framework, leveraging protein-protein interaction (PPI) networks and pathway-level biomarkers (NetBio) to better model these interactions. We extend prior work by evaluating XGBoost and deep learning architectures to improve prediction of immunotherapy response.
-
----
 
 ### Data Overview
 The study integrates multiple public datasets containing ICI-treated patient cohorts, including Kim et al., TCGA, IMvigor210, and others across cancer types such as melanoma, gastric, and bladder cancer.  
@@ -32,8 +30,6 @@ The study integrates multiple public datasets containing ICI-treated patient coh
   - TME-Bio: Tumor microenvironment features (CD8 T cells, CAFs, T-cell exhaustion)  
 
 The primary experimental dataset (Kim et al.) consisted of 45 gastric cancer patients, with class imbalance reflecting real-world response rates (~30% responders).
-
----
 
 ### Methodology
 The approach follows a network-driven ML pipeline, beginning with biomarker construction and extending into predictive modeling.
@@ -69,8 +65,6 @@ Overall, results confirmed that:
 - NetBio features improve predictive performance compared to GeneBio and TME-based biomarkers 
 - Advanced models (XGBoost, DNN, RNN) did not significantly outperform Logistic Regression under current constraints  
 
----
-
 ### Key Takeaways & Conclusion
 - Network-based biomarkers (NetBio) provide a stronger representation of biological interactions than gene-level features  
 - Logistic Regression remains a robust baseline for small, high-dimensional biomedical datasets  
@@ -78,8 +72,6 @@ Overall, results confirmed that:
 - Deep learning models require larger datasets to outperform traditional approaches  
 - Class imbalance significantly impacts performance, making F1-score and recall essential evaluation metrics  
 - Predicting immunotherapy response remains a challenging but high-impact problem, with clear opportunities for improvement  
-
----
 
 ### Future Directions
 - Expand dataset size using multi-cohort integration to improve model generalization  
@@ -89,10 +81,6 @@ Overall, results confirmed that:
 - Investigate graph neural networks (GNNs) to directly model PPI network structure  
 - Improve reproducibility by standardizing pipelines and resolving dataset inconsistencies  
 
----
-
 Explore the full project on [GitHub](https://github.com/nehachede/Predict-IO-Response-NetworkML).
-
----
 
 Skills: Python, Scikit-learn, XGBoost, Deep Learning, Neural Networks, RNN, Logistic Regression, Network Biology, Protein-Protein Interaction Networks, Feature Engineering, LOOCV, Model Evaluation, ROC Analysis, F1 Score, Class Imbalance Handling, Biomedical Data Analysis
