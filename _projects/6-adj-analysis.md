@@ -27,11 +27,11 @@ To enable analysis across multiple dimensions, the dataset was transformed into 
 - Hierarchical product categories were split into five separate categorical features
 - Review ratings were converted from string format (e.g., “4.5 out of 5 stars”) into numeric values
 - Price data was standardized:
-- - Currency symbols removed
-- - Price ranges converted to mean values
+	- Currency symbols removed
+	- Price ranges converted to mean values
 - Stock availability was decomposed into:
-- Quantity (numeric)
-- Condition (categorical: new, used, refurbished)
+	- Quantity (numeric)
+	- Condition (categorical: new, used, refurbished)
 
 A key challenge was handling missing values, particularly in the price column (~1435 records). Instead of applying global imputation, a hierarchical strategy was used:
 
