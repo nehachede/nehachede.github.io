@@ -52,7 +52,6 @@ We extended this framework with additional models:
 All models were evaluated using Leave-One-Out Cross Validation (LOOCV) due to the small dataset size.
 
 ### Key observations from experiments
-
 - XGBoost consistently outperformed DNN and RNN, showing stronger generalization on small datasets  
 - Deep learning models underperformed due to limited sample size (n=45) and sensitivity to class imbalance  
 - Logistic Regression remained highly competitive, particularly on combined biomarker sets (e.g., TME-Bio)  

@@ -2,20 +2,20 @@
 title: "Deciphering Customer Reviews"
 collection: projects
 permalink: /projects/6-adj-analysis
-excerpt: 'Built an end-to-end NLP pipeline using MongoDB and PySpark to extract sentiment patterns from e-commerce reviews through adjective-driven analysis and linguistic feature engineering.'
+excerpt: 'Built an end-to-end NLP pipeline using MongoDB and PySpark to extract sentiment patterns from e-commerce reviews through adjective-driven linguistic analysis.'
 ---
 
 ### Introduction
-The rapid growth of e-commerce has led to an abundance of customer reviews, yet most analysis relies heavily on numerical ratings, overlooking the richness of textual feedback. Ratings alone often fail to capture why customers feel satisfied or dissatisfied.
+E-commerce platforms generate large volumes of customer reviews, but traditional rating-based analysis often fails to explain <i>why</i> users feel satisfied or dissatisfied. This project addresses that limitation by focusing on linguistic sentiment signals embedded in review text, particularly adjectives that capture descriptive intent.
 
-This project addresses that gap by building a scalable pipeline to analyze how customers describe products, using adjectives as high-signal indicators of sentiment. By integrating data engineering, distributed systems, and NLP, the project transforms raw review text into interpretable patterns that reveal deeper insights into customer experience.
+The objective is to build a scalable pipeline that transforms raw, unstructured reviews into structured sentiment insights using distributed processing and NLP techniques.
 
 #### Key Highlights
 - Processed 10,000+ product records with semi-structured attributes
 - Engineered structured features from hierarchical categories and inconsistent price formats
 - Handled ~14% missing price data using hierarchical, category-based imputation
 - Built a cloud-backed pipeline using MongoDB Atlas + PySpark integration
-- Extracted sentiment-driving features using POS tagging (NLTK)
+- Extracted sentiment-driving features using POS tagging (`NLTK`)
 - Improved NLP accuracy by removing noise via spaCy NER (entity filtering)
 - Identified clear linguistic differences between high vs low rating reviews
 
@@ -24,7 +24,7 @@ The dataset, sourced from data.world (PromptCloud), contains product-level infor
 
 To enable analysis across multiple dimensions, the dataset was transformed into a structured format:
 
-- Hierarchical product categories were split into five separate categorical features
+- Flattened hierarchical product categories into five structured categorical levels
 - Review ratings were converted from string format (e.g., “4.5 out of 5 stars”) into numeric values
 - Price data was standardized:
 	- Currency symbols removed
@@ -50,18 +50,17 @@ The NLP pipeline focused on extracting meaningful linguistic signals from custom
 - Preprocessed text by removing punctuation, stopwords, numeric tokens, and low-signal terms
 - Tokenized reviews using NLTK
 - Filtering out low-information terms (e.g., months, common filler words)
-- Identified adjectives via part-of-speech tagging (JJ tags)
 
 Initial word frequency analysis revealed that commonly occurring terms were often generic (e.g., “product”, “item”), limiting their usefulness for sentiment interpretation. To address this, the analysis shifted toward adjective extraction, leveraging part-of-speech tagging:
 
-- Extracted adjectives using NLTK POS tagging (JJ tags)
+- Extracted adjectives using NLTK POS tagging (`JJ` tags)
 - Aggregated adjective frequencies across rating categories
 
 However, the model initially misclassified proper nouns (e.g., reviewer names) as adjectives. To improve accuracy, spaCy’s Named Entity Recognition (NER) was applied to filter out person entities, ensuring that only descriptive terms were retained. The refined dataset enabled comparative analysis across rating groups, supported by:
 
-Frequency distributions of top adjectives
-Side-by-side comparison of high vs low rating descriptors
-Word cloud visualization for highly rated products
+- Frequency distributions of top adjectives
+- Side-by-side comparison of high vs low rating descriptors
+- Word cloud visualization for highly rated products
 
 ### Key Takeaways & Conclusions
 The analysis revealed distinct and interpretable patterns in how customers express sentiment through language.
