@@ -16,7 +16,7 @@ The objective is to build a scalable pipeline that transforms raw, unstructured 
 - Handled ~14% missing price data using hierarchical, category-based imputation
 - Built a cloud-backed pipeline using MongoDB Atlas + PySpark integration
 - Extracted sentiment-driving features using POS tagging (`NLTK`)
-- Improved NLP accuracy by removing noise via spaCy NER (entity filtering)
+- Improved NLP accuracy by removing noise via `spaCy` NER (entity filtering)
 - Identified clear linguistic differences between high vs low rating reviews
 
 ### Data Overview
@@ -56,7 +56,7 @@ Initial word frequency analysis revealed that commonly occurring terms were ofte
 - Extracted adjectives using NLTK POS tagging (`JJ` tags)
 - Aggregated adjective frequencies across rating categories
 
-However, the model initially misclassified proper nouns (e.g., reviewer names) as adjectives. To improve accuracy, spaCy’s Named Entity Recognition (NER) was applied to filter out person entities, ensuring that only descriptive terms were retained. The refined dataset enabled comparative analysis across rating groups, supported by:
+However, the model initially misclassified proper nouns (e.g., reviewer names) as adjectives. To improve accuracy, `spaCy`’s Named Entity Recognition (NER) was applied to filter out person entities, ensuring that only descriptive terms were retained. The refined dataset enabled comparative analysis across rating groups, supported by:
 
 - Frequency distributions of top adjectives
 - Side-by-side comparison of high vs low rating descriptors
@@ -79,7 +79,7 @@ From a methodological perspective, the project highlights that:
 ### Future Directions
 - Extend analysis to sentiment classification models (positive, negative, neutral)
 - Implement aspect-based sentiment analysis to link adjectives with specific product features
-- Apply sentiment intensity scoring using models such as VADER or transformer-based approaches
+- Apply sentiment intensity scoring using models such as `vaderSentiment` or transformer-based approaches
 - Enhance seller-level analysis by fully structuring nested JSON data
 - Scale the pipeline using fully distributed Spark-based processing
 

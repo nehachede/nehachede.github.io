@@ -47,23 +47,23 @@ To create a multi-modal representation of each individual and ensure analytical 
 
 To reveal patterns in chronic disease risk and capture both interpretability and predictive power, the analysis followed a four-step pipeline, integrating unsupervised leardning, association analysis and supervised prediction.
 
-We first explored co-occurrence of health conditions using **association rule mining**. By recoding categorical outcomes and binning continuous variables, we discovered that:
+We first explored co-occurrence of health conditions using association rule mining. By recoding categorical outcomes and binning continuous variables, we discovered that:
 
 - Diabetes and hepatitis frequently co-occurred, with a support of 74.4% and confidence of 85.6%  
 - Asthma was strongly associated with diabetes and hepatitis, highlighting potential compounded risk  
 
-These associations informed our **feature selection** for subsequent analysis, ensuring critical health-related variables were retained.  
+These associations informed our feature selection for subsequent analysis, ensuring critical health-related variables were retained.  
 
-Next, **Principal Component Analysis (PCA)** reduced the dataset's dimensionality while retaining 95% of the variance. Height, age, income-to-poverty ratio, potassium and phosphorus intake, and white blood cell count emerged as dominant contributors. This step revealed latent patterns across demographics, nutrition, and biomarkers, highlighting underlying factors influencing chronic disease risk.  
+Next, Principal Component Analysis (PCA) reduced the dataset's dimensionality while retaining 95% of the variance. Height, age, income-to-poverty ratio, potassium and phosphorus intake, and white blood cell count emerged as dominant contributors. This step revealed latent patterns across demographics, nutrition, and biomarkers, highlighting underlying factors influencing chronic disease risk.  
 
-We then applied **K-Means clustering** to identify natural population groupings. The optimal solution of four clusters revealed distinct profiles:
+We then applied K-Means clustering to identify natural population groupings. The optimal solution of four clusters revealed distinct profiles:
 
-- **Cluster 0:** Taller individuals with moderate nutrient intake, representing a specific demographic  
-- **Cluster 1:** Shorter height, lower potassium intake, notable military presence  
-- **Cluster 2:** Younger, pregnant individuals with moderate WBC counts  
-- **Cluster 3:** Taller, ethnically diverse, high phosphorus and carbohydrate intake  
+- Cluster 0: Taller individuals with moderate nutrient intake, representing a specific demographic  
+- Cluster 1: Shorter height, lower potassium intake, notable military presence  
+- Cluster 2: Younger, pregnant individuals with moderate WBC counts  
+- Cluster 3: Taller, ethnically diverse, high phosphorus and carbohydrate intake  
 
-Finally, we trained a **Random Forest classifier** to predict chronic disease risk. A baseline model achieved 65% accuracy but underperformed on minority classes. Introducing class balancing maintained overall accuracy while improving recall and F1-scores for underrepresented categories. 
+Finally, we trained a Random Forest classifier to predict chronic disease risk. A baseline model achieved 65% accuracy but underperformed on minority classes. Introducing class balancing maintained overall accuracy while improving recall and F1-scores for underrepresented categories. 
 Key predictive features included sugar intake, total cholesterol, calcium, vitamin B6, saturated fat, and HDL cholesterol, confirming the importance of dietary habits and metabolic markers in chronic disease risk.
 
 ### Key Takeaways & Conclusions

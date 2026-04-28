@@ -42,14 +42,14 @@ The baseline Logistic Regression model, as proposed in the original study, achie
 
 We extended this framework with additional models:
 
-- XGBoost (gradient-boosted trees):  
+- `XGBoost` (gradient-boosted trees):  
   Designed to improve upon Random Forest by learning from residual errors  
 - Deep Neural Network (DNN):  
   Explored non-linear relationships with hyperparameter tuning  
 - Recurrent Neural Network (RNN):  
   Tested for sequential and interaction-based feature learning  
 
-All models were evaluated using Leave-One-Out Cross Validation (LOOCV) due to the small dataset size.
+All models were evaluated using Leave-One-Out Cross Validation (`LOOCV`) due to the small dataset size.
 
 ### Key observations from experiments
 - XGBoost consistently outperformed DNN and RNN, showing stronger generalization on small datasets  
@@ -67,9 +67,9 @@ Overall, results confirmed that:
 ### Key Takeaways & Conclusion
 - Network-based biomarkers (NetBio) provide a stronger representation of biological interactions than gene-level features  
 - Logistic Regression remains a robust baseline for small, high-dimensional biomedical datasets  
-- XGBoost showed the most promise among advanced models but was limited by dataset size  
+- `XGBoost` showed the most promise among advanced models but was limited by dataset size  
 - Deep learning models require larger datasets to outperform traditional approaches  
-- Class imbalance significantly impacts performance, making F1-score and recall essential evaluation metrics  
+- Class imbalance significantly impacts performance, making `F1-score` and `Recall` essential evaluation metrics  
 - Predicting immunotherapy response remains a challenging but high-impact problem, with clear opportunities for improvement  
 
 ### Future Directions
@@ -82,4 +82,4 @@ Overall, results confirmed that:
 
 Explore the full project on [GitHub](https://github.com/nehachede/Predict-IO-Response-NetworkML).
 
-Skills: Python, Scikit-learn, XGBoost, Deep Learning, Neural Networks, RNN, Logistic Regression, Network Biology, Protein-Protein Interaction Networks, Feature Engineering, LOOCV, Model Evaluation, ROC Analysis, F1 Score, Class Imbalance Handling, Biomedical Data Analysis
+<i>Tech Stack: Python, Scikit-learn, XGBoost, Deep Learning, Neural Networks, RNN, Logistic Regression, Network Biology, Protein-Protein Interaction Networks, Feature Engineering, LOOCV, Model Evaluation, ROC Analysis, F1 Score, Class Imbalance Handling, Biomedical Data Analysis</i>
