@@ -64,7 +64,7 @@ $$
 \text{Rating}_i = \beta_0 + \beta_1(\text{RuntimeMinutes}_i) + \beta_2(\text{StartYear}_i) + \sum_{k} \beta_k(\text{Genre}_{ik}) + \epsilon_i
 $$
 
-where genre was encoded using categorical indicator variables. This model served as a baseline under the assumption of linear relationships between predictors and ratings and achieved $a^b$ ≈ 0.1659 and RMSE ≈ 1.17. Residual diagnostics showed structured patterns, particularly across runtime bins and release years, indicating violation of linearity assumptions confirming the non-linear patterns observed with EDA.
+where genre was encoded using categorical indicator variables. This model served as a baseline under the assumption of linear relationships between predictors and ratings and achieved $$R^2$$ ≈ 0.1659 and RMSE ≈ 1.17. Residual diagnostics showed structured patterns, particularly across runtime bins and release years, indicating violation of linearity assumptions confirming the non-linear patterns observed with EDA.
 
 We extended the analysis using a Generalized Additive Model (GAM) to capture non-linear effects of continuous variables:
 
@@ -72,7 +72,7 @@ $$
 \text{Rating}_i = \beta_0 + f_1(\text{RuntimeMinutes}_i) + f_2(\text{StartYear}_i) + \sum_{k} \beta_k(\text{Genre}_{ik}) + \epsilon_i
 $$
 
-where f_{1} and f_{2} are spline-based smooth functions estimated from the data. Model performance improved to $$a^b$$ ≈ 0.177 for unweighted GAM and R^2 ≈ 0.344 for weighted specification. RMSE reduced to ≈ 1.16.
+where $$f_{1}$$ and $$f_{2}$$ are spline-based smooth functions estimated from the data. Model performance improved to $$R^2$$ ≈ 0.177 for unweighted GAM and $$R^2$$ ≈ 0.344 for weighted specification. RMSE reduced to ≈ 1.16.
 
 Key model improvements over Linear Regression:
 - GAM increased explained variance
