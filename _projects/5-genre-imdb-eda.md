@@ -2,7 +2,7 @@
 title: "Genre Fusion and More IMDb Film Ratings"
 collection: projects
 permalink: /projects/5-genre-imdb-eda
-excerpt: "A data-driven study of how genre combinations, runtime, and release year shape IMDb ratings using 300K+ movies and GAM-based modeling."
+excerpt: "Analyzed 300K+ IMDb films to study how genre combinations, runtime, and release year shaped audience ratings through non-linear modeling and Generalized Additive Models (GAM)."
 ---
 
 ### Introduction
@@ -18,7 +18,7 @@ This project investigates how genre fusion, runtime, and release year jointly in
 - Hybrid genres (Comedy-Drama, Drama-Romance) outperform standalone Comedy by +0.4 to +0.6 rating
 - Optimal runtime range for higher ratings: 120–180 minutes
 
-## Data Overview
+### Data Overview
 The dataset is sourced from IMDb and includes metadata and ratings information across films released between 1874 and 2024. It provides a unique opportunity to study how cinematic trends and viewer preferences have evolved over time, from early silent-era films to modern streaming-era productions.
 
 We integrate two primary IMDb tables:
@@ -26,7 +26,7 @@ We integrate two primary IMDb tables:
 - title.basics.tsv: Contains metadata for each title, including release year, runtime, and genre classification.
 - title.ratings.tsv: Contains user-driven feedback in the form of average ratings and number of votes per title.
 
-The full dataset (Publicly available [here](https://datasets.imdbws.com/) spans 1874 to 2024, but the analysis is focused on modern cinematic patterns. To ensure meaningful and comparable trends, we apply the following filters:
+The full dataset (Publicly available [here](https://datasets.imdbws.com/)) spans 1874 to 2024, but the analysis is focused on modern cinematic patterns. To ensure meaningful and comparable trends, we apply the following filters:
 - Only movies released after 1920 are included, capturing the era of modern cinema
 - Only films with runtime ≤ 200 minutes are retained to remove extreme outliers (e.g., experimental or incomplete records)
 - Entries with missing or invalid values in key fields (runtime, rating, or genre) are removed
@@ -64,7 +64,7 @@ $$
 \text{Rating}_i = \beta_0 + \beta_1(\text{RuntimeMinutes}_i) + \beta_2(\text{StartYear}_i) + \sum_{k} \beta_k(\text{Genre}_{ik}) + \epsilon_i
 $$
 
-where genre was encoded using categorical indicator variables. This model served as a baseline under the assumption of linear relationships between predictors and ratings and achieved $R^2$ ≈ 0.1659 and RMSE ≈ 1.17. Residual diagnostics showed structured patterns, particularly across runtime bins and release years, indicating violation of linearity assumptions confirming the non-linear patterns observed with EDA.
+where genre was encoded using categorical indicator variables. This model served as a baseline under the assumption of linear relationships between predictors and ratings and achieved `$R^2` ≈ 0.1659 and RMSE ≈ 1.17. Residual diagnostics showed structured patterns, particularly across runtime bins and release years, indicating violation of linearity assumptions confirming the non-linear patterns observed with EDA.
 
 We extended the analysis using a Generalized Additive Model (GAM) to capture non-linear effects of continuous variables:
 
@@ -72,12 +72,12 @@ $$
 \text{Rating}_i = \beta_0 + f_1(\text{RuntimeMinutes}_i) + f_2(\text{StartYear}_i) + \sum_{k} \beta_k(\text{Genre}_{ik}) + \epsilon_i
 $$
 
-where f_1 and f_2 are spline-based smooth functions estimated from the data. Model performance improved to $R^2$ ≈ 0.177 for unweighted GAM and $R^2$ ≈ 0.344 for weighted specification. RMSE reduced to ≈ 1.16.
+where f_1 and f_2 are spline-based smooth functions estimated from the data. Model performance improved to `$R^2` ≈ 0.177 for unweighted GAM and `$R^2` ≈ 0.344 for weighted specification. RMSE reduced to ≈ 1.16.
 
 Key model improvements over Linear Regression:
 - GAM increased explained variance
 - Residual standard error decreased indicating tighter fit
-- AIC/BIC improved consistently across all specifications
+- `AIC`/`BIC` improved consistently across all specifications
 - Residual plots showed reduced systematic bias compared to LM, though mild heteroscedasticity remained at rating extremes
 
 While weighted models using vote counts were considered, they were excluded to avoid introducing additional bias and complexity, ensuring interpretability and consistency across models.
