@@ -52,11 +52,11 @@ Due to the large number of unique genre combinations, analysis was restricted to
 - Drama-Romance
 
 We perfomed Exploratory Data Analysis (EDA) to understand distributional and tempporal patterns in the data. 
-- Genre frequency distribution
-- IMDb rating distributions (boxplots)
-- Temporal trends in movie production
-- Rating evolution over decades
-- Runtime bin analysis (0–60, 60–120, 120–180 minutes)
+- Documentaries achieved the highest median ratings (~7.2–7.5), consistently outperforming all other genres across time
+- Drama, despite being the most frequent (~47K films), showed wider variance with ratings concentrated around ~6.5–7.0
+- Comedy exhibited the lowest and most variable ratings (~6.0–6.5), with frequent lower-end outliers
+- Hybrid genres such as Comedy-Drama and Drama-Romance showed tighter distributions and higher medians than standalone Comedy
+- Runtime binning revealed that films in the 120–180 minute range achieved the highest average ratings (~7.0+), while short films (<60 min) underperformed (~6.2–6.5)
 
 To model the relationship between film attributes and IMDb ratings, we first applied a Linear Regression model using runtime, release year and genre as predcitors:
 
@@ -64,80 +64,40 @@ $$
 \text{Rating}_i = \beta_0 + \beta_1(\text{RuntimeMinutes}_i) + \beta_2(\text{StartYear}_i) + \sum_{k} \beta_k(\text{Genre}_{ik}) + \epsilon_i
 $$
 
-where genre was encoded using categorical indicator variables. This model served as a baseline under the assumption of linear relationships between predictors and ratings.
+where genre was encoded using categorical indicator variables. This model served as a baseline under the assumption of linear relationships between predictors and ratings and achieved $R^2$ ≈ 0.1659 and RMSE ≈ 1.17. Residual diagnostics showed structured patterns, particularly across runtime bins and release years, indicating violation of linearity assumptions confirming the non-linear patterns observed with EDA.
 
-Given patterns observed during EDA, we extended the analysis using a Generalized Additive Model (GAM) to capture non-linear effects of continuous variables:
+We extended the analysis using a Generalized Additive Model (GAM) to capture non-linear effects of continuous variables:
 
 $$
 \text{Rating}_i = \beta_0 + f_1(\text{RuntimeMinutes}_i) + f_2(\text{StartYear}_i) + \sum_{k} \beta_k(\text{Genre}_{ik}) + \epsilon_i
 $$
 
-where f
-1
-	​
+where f_1 and f_2 are spline-based smooth functions estimated from the data. Model performance improved to $R^2$ ≈ 0.177 for unweighted GAM and $R^2$ ≈ 0.344 for weighted specification. RMSE reduced to ≈ 1.16.
 
- and f
-2
-	​
+Key model improvements over Linear Regression:
+- GAM increased explained variance
+- Residual standard error decreased indicating tighter fit
+- AIC/BIC improved consistently across all specifications
+- Residual plots showed reduced systematic bias compared to LM, though mild heteroscedasticity remained at rating extremes
 
- are smooth functions estimated from the data. This formulation allowed the model to flexibly capture non-linear trends in ratings without imposing a fixed functional form.
----
+While weighted models using vote counts were considered, they were excluded to avoid introducing additional bias and complexity, ensuring interpretability and consistency across models.
 
-### 3. Runtime and Rating Analysis
-We examined how runtime influences ratings across genres:
-- Documentaries remain consistently high-rated regardless of runtime
-- Drama shows improved ratings with longer runtimes
-- Comedy shows unstable and U-shaped trends in later years
+We further modeled two-dimensional interaction surfaces using a Generalized Additive Model (GAM). Instead of treating runtime and release year independently, we fit a smooth interaction term:
 
----
+$$
+s(\text{runtimeMinutes}, \text{startYear})
+$$
 
-### 4. Modeling Approach
-
-#### Linear Regression (Baseline)
-We first applied linear regression using:
-- runtimeMinutes
-- startYear
-- genres
-
-However, this model failed to capture non-linear patterns effectively.
-
----
-
-#### Generalized Additive Model (GAM)
-We applied GAM to model non-linear effects:
-
-- s(runtimeMinutes)
-- s(startYear)
-- genres (categorical)
-
-Key improvements:
-- Better fit (higher R²)
-- Lower AIC/BIC compared to LM
-- Improved residual behavior
-- Captures smooth temporal and runtime trends
-
----
-
-### 5. Interaction Analysis (Contour Plots)
-We further modeled:
-- runtimeMinutes × startYear interaction per genre
-
-Findings:
-- Drama: higher ratings for longer films post-2000
-- Documentary: consistently high ratings across years
-- Comedy: unstable, with mid-century peak performance
-
----
+This allowed us to estimate a continuous surface capturing how the joint effect of runtime and release year influences IMDb ratings, rather than assuming additive or linear relationships.
 
 ## Key Takeaways and Conclusion
-- Documentaries consistently outperform all genres in IMDb ratings.
-- Genre combinations (Comedy-Drama, Drama-Romance) generally outperform single genres like Comedy.
-- Runtime plays a significant but genre-dependent role in rating outcomes.
-- Audience preferences have shifted significantly over time, especially post-2000.
-- GAM models are more effective than linear regression in capturing real-world rating behavior.
-- Comedy shows the most variability and weakest overall performance.
-
----
+- Documentaries consistently outperform all genres in IMDb ratings
+- Genre combinations (Comedy-Drama, Drama-Romance) generally outperform single genres like Comedy
+- Runtime plays a significant but genre-dependent role in rating outcomes
+- Audience preferences have shifted significantly over time, especially post-2000
+- GAM models are more effective than linear regression in capturing real-world rating behavior
+- Comedy remains the most volatile genre, with inconsistent performance and wider rating dispersion
+- Interaction analysis revealed that rating behavior evolves over time, particularly for Drama, where longer films have become more favorably rated in recent decades
 
 ## Future Directions
 - Incorporate director and actor-level influence on ratings
@@ -147,11 +107,6 @@ Findings:
 - Build predictive models for IMDb rating forecasting
 - Investigate genre evolution using clustering techniques
 
----
+Explore the full project on [GitHub](https://github.com/nehachede/IMDb-Ratings-Genre-Fusion-GAM-Analysis)
 
-## Explore the full project on
-[GitHub Repository](https://github.com/your-repo-link-here)
-
----
-
-<i>Tech Stack:</i> R, ggplot2, dplyr, mgcv (GAM), caret, tidyverse, data visualization, statistical modeling, IMDb datasets
+<i>Tech Stack:</i> R, ggplot2, dplyr, mgcv, caret, tidyverse, linear regression, generalized additive models (GAM), data visualization, statistical modeling
