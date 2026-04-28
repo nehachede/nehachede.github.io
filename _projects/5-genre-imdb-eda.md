@@ -44,12 +44,7 @@ From the full dataset, we focus on the following variables:
 ### Approach
 To understand how film characteristics influence audience reception, we analyzed IMDb data using a combination of exploratory data analysis, statistical aggregation, and regression modeling. The goal was to move beyond simple descriptive trends and identify how genre, runtime, and time period interact to shape movie ratings.
 
-Due to the large number of unique genre combinations, analysis was restricted to the top five most frequent genres which represent both dominant categories and meaningful hybrid forms:
-- Drama
-- Documentary
-- Comedy
-- Comedy-Drama
-- Drama-Romance
+Due to the large number of unique genre combinations, analysis was restricted to the top five most frequent genres which represent both dominant categories and meaningful hybrid forms - <i>Drama, Documentary, Comedy, Comedy-Drama, Drama-Romance</i>.
 
 We perfomed Exploratory Data Analysis (EDA) to understand distributional and tempporal patterns in the data. 
 - Documentaries achieved the highest median ratings (~7.2–7.5), consistently outperforming all other genres across time
@@ -82,13 +77,11 @@ Key model improvements over Linear Regression:
 
 While weighted models using vote counts were considered, they were excluded to avoid introducing additional bias and complexity, ensuring interpretability and consistency across models.
 
-We further modeled two-dimensional interaction surfaces using a Generalized Additive Model (GAM). Instead of treating runtime and release year independently, we fit a smooth interaction term:
+We further modeled two-dimensional interaction surfaces using a Generalized Additive Model (GAM). Instead of treating runtime and release year independently rather than assuming additive or linear relationships, we fit a smooth interaction term:
 
 $$
 s(\text{runtimeMinutes}, \text{startYear})
 $$
-
-This allowed us to estimate a continuous surface capturing how the joint effect of runtime and release year influences IMDb ratings, rather than assuming additive or linear relationships.
 
 ### Key Takeaways and Conclusion
 - Documentaries consistently outperform all genres in IMDb ratings
