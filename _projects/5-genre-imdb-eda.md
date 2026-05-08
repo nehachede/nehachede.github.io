@@ -2,7 +2,7 @@
 title: "Genre Fusion and More IMDb Film Ratings"
 collection: projects
 permalink: /projects/5-genre-imdb-eda
-excerpt: "Analyzed 300K+ IMDb films to study how genre combinations, runtime, and release year shaped audience ratings through non-linear modeling and Generalized Additive Models (GAM)."
+excerpt: "Analyzed 300K+ IMDb films to study how genre combinations, runtime, and release year shaped audience ratings through non-linear modeling and Generalized Additive Models (GAM)"
 ---
 
 ### Introduction
