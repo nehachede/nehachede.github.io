@@ -2,7 +2,7 @@
 title: "Economic Convergence: An Analysis of Global GDP Growth"
 collection: projects
 permalink: /projects/4-gdp-growth-eda
-excerpt: 'Analyzed 60 years of global GDP per capita data to evaluate economic convergence patterns across countries, continents, and historical periods using statistical analysis and visualization in R.'
+excerpt: 'Examined six decades of global GDP per capita trends to assess economic convergence across countries, continents, and time periods using statistical methods and visualization in R.'
 ---
 
 ### Introduction
