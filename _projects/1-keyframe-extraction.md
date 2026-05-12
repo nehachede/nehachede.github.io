@@ -12,24 +12,27 @@ Videos contain large amounts of redundant visual information, making efficient s
 This project explores classical approaches to automatic key frame extraction and evaluates their effectiveness in terms of accuracy, compression, and computational efficiency.
 
 ### Key Highlights
-- Compared three classical key frame extraction techniques: SSIM, entropy-based, and Euclidean distance methods  
-- Analyzed trade-offs between compression efficiency and computational complexity  
-- Studied shot boundary detection as a foundational step for video segmentation  
-- Identified SSIM-based approach as the most balanced in performance and simplicity  
+- Implemented shot boundary detection and automatic key frame extraction pipelines
+- Compared three extraction approaches:
+  - Structural Similarity Index (SSIM)
+  - Entropy difference
+  - Edge-based Euclidean distance
+- Evaluated methods using:
+  - Compression Ratio (CR)
+  - Processing Time (PT)
+  - Computational Efficiency (CE = CR / PT)
+- Analyzed the effect of threshold selection on segmentation quality and extracted frames
+- Identified SSIM-based extraction as the most balanced approach in terms of accuracy and computational cost
 
-### Data & Method Overview
-- Worked with standard video sequences containing multiple shot transitions (cuts, fades, dissolves)  
-- Represented videos structurally as frames → shots → scenes  
-- Applied shot boundary detection as a preprocessing step before key frame selection  
-- Evaluated key frame candidates based on visual similarity, entropy, and edge variation  
+### Methodology
+Videos were segmented into shots by detecting abrupt cuts and gradual transitions between adjacent frames. These segmented shots formed the basis for representative frame extraction.
 
-### Analytical Approach
 The study followed a comparative evaluation framework across three methods:
 
 - Structural Similarity Index (SSIM)
-  - Measured perceptual similarity between frames
-  - Detected shot transitions using similarity thresholds
-  - Selected key frames at high-change boundaries
+	- Measured perceptual similarity using luminance, contrast, and structural information
+	- Detected scene transitions from significant drops in similarity scores
+	- Produced visually meaningful and stable key frames
 
 - Entropy-based method
   - Computed information content using pixel intensity distribution
@@ -41,21 +44,16 @@ The study followed a comparative evaluation framework across three methods:
   - Measured frame-to-frame pixel variation using distance metrics
   - Identified key frames based on thresholded difference scores  
 
-To evaluate performance:
-- Compared methods using Compression Ratio (CR), Processing Time (PT), and Computational Efficiency (CE = CR / PT)
-- Analyzed sensitivity of threshold selection on output key frames
-- Assessed robustness across different video transition types  
-
-### Key Takeaways & Conclusion
-- SSIM-based method consistently outperformed entropy and Euclidean approaches  
-- Provided the best balance between compression efficiency and computational cost  
+### Results
+- SSIM-based extraction achieved the best trade-off between summarization quality and computational efficiency
 - Entropy and Euclidean methods were more sensitive to parameter tuning and noise  
 - Key frame quality strongly depended on accurate shot boundary detection  
 
 ### Future Scope
-- Extend to deep learning-based temporal models for adaptive key frame selection  
-- Improve detection of gradual transitions such as fades and dissolves  
-- Enhance robustness for real-world noisy video sequences  
-- Scale to long-duration video summarization and real-time processing  
+- Adaptive thresholding for dynamic scene transitions
+- CNN-based temporal feature extraction for semantic summarization
+- Hybrid approaches combining perceptual and deep visual features
+- Real-time processing for long-duration video analytics pipelines
+
 
 <i>Tech Stack: Python, OpenCV, NumPy, SciPy, Matplotlib</i>
