@@ -22,6 +22,7 @@ The project uses publicly available datasets from Gapminder, including:
 - GDP per capita data (inflation-adjusted)
 - Population data
 - Country-to-continent mapping
+
 The datasets were cleaned, merged, and transformed to support continent-level and country-level growth analysis.
 - Filtered GDP data for the period 1960–2019.
 - Joined economic data with continent mappings for regional analysis.
@@ -34,10 +35,12 @@ Annualized GDP growth rates were calculated using compound annual growth formula
 - Ranked countries to identify the fastest-growing and slowest-growing economies globally
 - Merged country-level economic data with continent classifications for regional analysis
 - Built comparative visualizations to examine long-term growth distributions and disparities
+
 To evaluate economic convergence:
 - Tested relationship between 1960 GDP per capita and long-term growth using correlation analysis
 - Used scatter plots to assess whether lower-income countries grew faster over time
 - Extended analysis to continent-level comparisons (Asia, Africa, Europe, Americas, Oceania)
+
 The study was further extended across three historical periods — 1960–1980, 1980–2000, and 2000–2019 — to understand how convergence dynamics evolved over time and whether globalization and economic reforms accelerated growth in lower-income economies. To assess changes over time:
 - Split analysis into three periods: 1960–1980, 1980–2000, 2000–2019
 - Recomputed growth rates and correlation coefficients for each period
@@ -59,5 +62,4 @@ The results suggest that convergence is not automatic and depends heavily on eco
 
 Explore the full project on [GitHub](https://github.com/nehachede/Economic-Convergence-GDP-growth-analysis-R).
 
-### <i>Tech Stack</i>
-R • tidyverse • dplyr • ggplot2 • readr • Statistical Analysis • Exploratory Data Analysis (EDA) • Data Visualization • Correlation Analysis • Economic Data Analysis
+<i>Tech Stack: R, tidyverse, dplyr, ggplot2, readr, Statistical Analysis, Exploratory Data Analysis (EDA), Data Visualization, Correlation Analysis, Economic Data Analysis</i>

@@ -35,25 +35,29 @@ The analysis was structured as an NLP-driven exploration of how lyrical characte
 - Engineered textual features from lyrics to quantify readability and complexity, enabling numerical comparison across songs
 - Used readability metrics such as Flesch Reading Ease and Gunning Fog Index to represent linguistic difficulty
 - Computed lexical diversity to capture vocabulary richness and variation within lyrics
+
 To understand listening behavior patterns:
 - Aggregated stream counts across tracks, artists, and regions to identify dominant consumption trends
 - Ranked songs and artists to highlight global popularity patterns and long-tail distribution in streaming data
 - Visualized geographic streaming distribution to compare regional engagement levels
 - Engineered region-to-country mappings and integrated `GeoJSON` data for global choropleth visualizations of streaming distribution
+
 To analyze emotional content in lyrics:
 - Applied sentiment analysis using TextBlob to extract polarity (emotional direction)
 - Measured subjectivity to quantify emotional expression in lyrics
 - Compared sentiment distributions across high- and low-popularity songs
+
 To evaluate relationships between lyrics and popularity:
 - Performed correlation analysis between lyrical features and stream counts
 - Observed consistently weak correlations (≈ -0.04) between readability metrics and streams
 - Identified strong inverse relationship between readability metrics themselves (Flesch vs Gunning Fog ≈ -0.99), validating metric consistency
 - Used scatter plots to examine whether any nonlinear patterns existed between complexity and popularity
+
 To assess predictive power:
 - Built a linear regression model using lyrical features to predict stream counts
-\[
+$$
 \text{Streams} = \beta_0 + \beta_1(\text{Flesch Reading Ease}) + \beta_2(\text{Gunning Fog Index}) + \beta_3(\text{Lexical Diversity})
-\]
+$$
 - Evaluated model performance using error metrics and residual analysi
 - Model predictions showed poor alignment with actual stream values, indicating that lyrical features alone are insufficient predictors of song popularity
 
